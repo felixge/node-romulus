@@ -1,3 +1,5 @@
 var romulus = exports;
 
-romulus.createServer = require('./lib/createServer');
+romulus.buildSite         = require('./lib/buildSite');
+romulus.createServer      = require('./lib/createServer');
+romulus.handleCommandLine = require('./lib/handleCommandLine');
