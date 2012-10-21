@@ -113,6 +113,18 @@ Sweet, your headline is now featuring my favorite color!
 Any file placed in the `public` folder will be included at the top level of the
 build output folder. The local development server also supports serving them.
 
+## Page scripts
+
+```
+work in progress ...
+```
+## Deploying to github pages
+
+```
+work in progress ...
+```
+
+
 ## License
 
 MIT License.
