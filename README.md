@@ -82,7 +82,7 @@ Now you need to create the layout itself, so add a file called
     <meta charset="UTF-8">
     <title>My static empire</title>
 
-    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/main.less" />
     <script src="/js/main.js"></script>
   </head>
   <body>
