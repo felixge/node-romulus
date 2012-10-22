@@ -22,7 +22,7 @@ Romulus is a static site generator (like jekyll) featuring:
 * `romulus deploy` for github pages deployment
 * page scripts that run before rendering
 * github flavored markdown
-* blogging
+* plugins (themes, blogging, google analytics, disqus, etc.)
 
 You should use romulus if you want a simple tool for creating static github
 pages with node.js.
