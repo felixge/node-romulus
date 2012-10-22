@@ -97,7 +97,7 @@ That's it, you should now see your page being rendered inside your template!
 ## Generating css from less files
 
 Now that you have this wonderful site, you probably want to style it. To do so,
-create a file called `public/css/main.css`:
+create a file called `public/css/main.less`:
 
 ```css
 body{
