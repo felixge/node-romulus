@@ -10,7 +10,7 @@ Building static empires with node.js.
 
 ## Features
 
-Romlus is a static site generator (like jekyll) featuring:
+Romulus is a static site generator (like jekyll) featuring:
 
 * a clear folder convention
 * ejs template processing
@@ -48,7 +48,7 @@ Now create a file called `pages/index.html` and put some HTML into it:
 Run this to generate your static site:
 
 ```bash
-$ romlus my-site
+$ romulus my-site
 ```
 
 You should now see a new folder called `my-site` containing your `index.html`
@@ -63,8 +63,8 @@ $ romulus
 
 ## Layouts
 
-In order to make this more interesting, let's say you want to wrap your
-new page in a fancy layout. To do this you need to change you `pages/index.html`
+In order to make this more interesting, let's say you want to wrap your new
+page in a fancy layout. To do this you need to change your `pages/index.html`
 file like this:
 
 ```html
