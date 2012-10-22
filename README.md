@@ -84,7 +84,7 @@ Now you need to create the layout itself, so add a file called
 
     <!-- Can be a plain css file or rendered from less, continue reading -->
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
-    <!-- You can include any JS / CSS files, main.js / main.css are  just examples -->
+    <!-- You can include any JS / CSS files, main.js / main.css are just examples -->
     <script src="/js/main.js"></script>
   </head>
   <body>
