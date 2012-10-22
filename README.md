@@ -45,14 +45,17 @@ Now create a file called `pages/index.html` and put some HTML into it:
 <p>Hello World</p>
 ```
 
-Run this to generate your static site:
+Run this to build your static site:
 
 ```bash
-$ romulus my-site
+$ romulus build my-site
 ```
 
 You should now see a new folder called `my-site` containing your `index.html`
 page exactly as you wrote it.
+
+**Note:** If you ommit the `my-site` argument, romulus will default to naming
+your output folder `build`.
 
 Alternatively you could run the local development server at
 [http://localhost:8080/](http://localhost:8080/) by typing this:
