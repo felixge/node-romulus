@@ -1,7 +1,7 @@
 {
   "name": "romulus",
   "version": "0.0.0",
-  "description": "The static site builder for future empires.",
+  "description": "Building static empires with node.js.",
   "main": "index.js",
   "directories": {
     "test": "test"
