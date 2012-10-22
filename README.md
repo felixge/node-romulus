@@ -15,7 +15,7 @@ Romlus is a static site generator (like jekyll) featuring:
 * a clear folder convention
 * ejs template processing
 * generating css from less files
-* a local development server acting like github pages
+* a local development server behaving like github pages
 
 **Planned:**
 
