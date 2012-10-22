@@ -57,7 +57,7 @@ page exactly as you wrote it.
 **Note:** If you ommit the `my-site` argument, romulus will default to naming
 your output folder `build`.
 
-Alternatively you could run the local development server at
+For testing your site, you should run the local development server at
 [http://localhost:8080/](http://localhost:8080/) by typing this:
 
 ```bash
