@@ -19,6 +19,7 @@ Romlus is a static site generator (like jekyll) featuring:
 
 **Planned:**
 
+* `romulus deploy` for github pages deployment
 * page scripts that run before rendering
 * github flavored markdown
 * blogging
