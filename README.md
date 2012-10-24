@@ -15,6 +15,7 @@ Romulus is a static site generator (like jekyll) featuring:
 * a clear folder convention
 * ejs template processing
 * generating css from less files
+* github flavored markdown
 * a local development server behaving like github pages
 
 **Planned:**
@@ -22,7 +23,6 @@ Romulus is a static site generator (like jekyll) featuring:
 * `romulus deploy` for github pages deployment
 * page scripts that run before rendering
 * partials that can be included on any page
-* github flavored markdown
 * plugins (themes, blogging, google analytics, disqus, etc.)
 
 You should use romulus if you want a simple tool for creating static github
@@ -119,6 +119,22 @@ Sweet, your headline is now featuring my favorite color!
 
 Any file placed in the `public` folder will be included at the top level of the
 build output folder. The local development server also supports serving them.
+
+## Using markdown
+
+romulus natively supports
+[github flavored markdown](https://github.com/isaacs/github-flavored-markdown)
+for page files. Using markdown is as easy as creating a file called a file with
+a `.md` extension: `pages/markdown-rocks.md` and adding some markdown to it:
+
+```html
+<% this.layout = 'default'; %>
+
+Markdown is **fun**, and you can still use EJS inside of your markdown
+templates.
+```
+
+This page now will be served at `/markdown-rocks`.
 
 ## Page scripts
 
