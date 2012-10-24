@@ -124,8 +124,8 @@ build output folder. The local development server also supports serving them.
 
 romulus natively supports
 [github flavored markdown](https://github.com/isaacs/github-flavored-markdown)
-for page files. Using markdown is as easy as creating a file called a file with
-a `.md` extension: `pages/markdown-rocks.md` and adding some markdown to it:
+for page files. Using markdown is as easy as creating a file with
+a `.md` extension like `pages/markdown-rocks.md` and adding some markdown to it:
 
 ```html
 <% this.layout = 'default'; %>
