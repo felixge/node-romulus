@@ -100,6 +100,21 @@ Now you need to create the layout itself, so add a file called
 
 That's it, you should now see your page being rendered inside your template!
 
+## Accessing page variables in your layout
+
+Let's say you want to set a `title` variable in your page that should be used
+by the layout. For this, add this to your page template:
+
+```html
+<% this.title = 'My title'; %>
+```
+
+And output it in your layout like this:
+
+```html
+<title><%= this.title %></title>
+```
+
 ## Generating css from less files
 
 Now that you have this wonderful site, you probably want to style it. To do so,
