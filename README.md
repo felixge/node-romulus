@@ -17,10 +17,10 @@ Romulus is a static site generator (like jekyll) featuring:
 * generating css from less files
 * github flavored markdown
 * a local development server behaving like github pages
+* deploying to github pages
 
 **Planned:**
 
-* `romulus deploy` for github pages deployment
 * page scripts that run before rendering
 * partials that can be included on any page
 * plugins (themes, blogging, google analytics, disqus, etc.)
@@ -151,16 +151,17 @@ templates.
 
 This page now will be served at `/markdown-rocks`.
 
-## Page scripts
-
-```
-work in progress ...
-```
 ## Deploying to github pages
 
+Deploying to github pages is as simple as:
+
 ```
-work in progress ...
+romulus deploy
 ```
+
+This should work well for project pages, but has not been tested for
+organization pages yet.
+
 ## License
 
 MIT License.
