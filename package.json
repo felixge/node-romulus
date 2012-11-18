@@ -1,6 +1,6 @@
 {
   "name": "romulus",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "description": "Building static empires with node.js.",
   "main": "index.js",
   "directories": {
