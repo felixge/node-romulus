@@ -4,7 +4,7 @@ Building static empires with node.js.
 
 **Install:** `[sudo] npm install -g romulus`
 
-[![Romulus](romulus.jpg)](http://en.wikipedia.org/wiki/File:Jean_Auguste_Dominique_Ingres_019.jpg)
+[![Romulus](romulus.jpg)](romulus.jpg)
 
 ## Features
 
